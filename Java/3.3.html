@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Estilo para o contêiner */
+        #box {
+            height: 500px;
+            width: 500px;
+            background-color: rgb(212, 203, 203);
+            margin: 10px;
+            border-radius: 30px;
+            padding: 15px;
+        }
+
+        /* Estilo para o texto */
+        p {
+            margin: 15px;
+            line-height: 25px;
+            text-align: justify;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Botões para alternar as cores -->
+    <button id="darkMode">Escuro</button>
+    <button id="lightMode">Claro</button>
+
+    <!-- Div com o texto de exemplo -->
+    <div id="box">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eaque nemo, ex sequi minima dolor 
+            dolorum nihil incidunt sed culpa ratione doloribus eveniet, quod assumenda! Cumque nam quod 
+            labore dicta fuga! Lorem ipsum dolor sit amet, consectetur, adipisicing elit.
+            Necessitatibus, incidunt corrupti dolore placeat.
+        </p>
+    </div>
+
+    <script>
+        // Alterna para o modo escuro
+        document.getElementById('darkMode').onclick = function () {
+            document.getElementById('box').style.backgroundColor = 'black';
+            document.getElementById('box').style.color = 'white';
+        };
+
+        // Alterna para o modo claro
+        document.getElementById('lightMode').onclick = function () {
+            document.getElementById('box').style.backgroundColor = 'gray';
+            document.getElementById('box').style.color = 'black';
+        };
+    </script>
+</body>
+</html>
