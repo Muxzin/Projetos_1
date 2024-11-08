@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color: gray;
+    height: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+header nav ul{
+    list-style-type: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+header nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+header button{
+    background-color: blue;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 3px;
+}
+header button:hover{
+    color: white;
+}
+.navegacao h1{
+    font-size: 25px;
+    text-align: justify;
+    padding: 15px;
+}
+.navegacao ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.navegacao .active{
+    background-color: green;
+    color: white;
+}
+.navegacao li a {
+    display: block;
+    color: #000;
+    padding: 3px 0 3px 30px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.content{
+    margin-left: 15%;
+    height: auto;
+    width: 70%;
+    padding-left: 9%;
+}
+.content h1{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-content button{
+    background-color: green;
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button-content a{
+    text-decoration: none;
+    color: white;   
+}
+.button-content-1, .button-content-3{
+    margin-right: 65%;
+}
+.button-content p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.content ul{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.content li{
+    padding: 3px;
+}
+.bloco-exemplo{
+    background-color: lightgray;
+    width: 82%;
+    height: 285px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+.bloco-exemplo h1{
+    font-size: 25px;
+    margin: 5px;
+}
+.exemplo-codigo{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    background-color: white;
+    border-left: 5px solid black;
+}
+.exemplo-codigo p{
+    margin: 3px;
+}
+.exemplo-explicado{
+    height: auto;
+}
+.exemplo-explicado span{
+    color: red;
+}
+.span-espaco{
+    margin-left: 45px;
+}
+.exercicio{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.container-exercicio{
+    background-color: darkslategray;
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+}
+.container-exercicio h1, 
+.container-exercicio p{
+    text-align: center;
+    color: white;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="radio"] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #3498db;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+form input[type="radio"]:checked {
+    background-color: black;    
+    border-color: blue;
+}
+form label {
+    font-size: 16px;
+    color: #333;
+    margin-left: 7px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+form br {
+    clear: both;
+    display: block;
+    margin-bottom: 10px;
+}
+.exercicio-button{
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 38%;
+}
+.exercicio-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.button-content-2 button{
+    background-color: green;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 3px;    
+    margin-top: 70px;
+}
+.button-content-2 a{
+    text-decoration: none;
+    color: white;   
+}

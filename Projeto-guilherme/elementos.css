@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}body{
+    h1{
+        font-size: 30px;
+    }
+    & p{
+        font-size: 20px;
+    }
+    & span{
+        color: red;
+    }
+    & .paragrafo{
+        font-size: 20px;
+        margin: 10px 0 0 15px;
+    }
+}
+header{
+    display: flex;
+    background-color: gray;
+    height: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+header nav ul{
+    list-style-type: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+header nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+header button{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 3px;
+}
+header button:hover{
+    color: white;
+}
+.navegacao h1{
+    font-size: 25px;
+    text-align: justify;
+    padding: 15px;
+}
+.navegacao ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.navegacao .active{
+    background-color: green;
+    color: white;
+}
+.navegacao li a {
+    display: block;
+    color: #000;
+    padding: 3px 0 3px 30px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.content{
+    margin-left: 15%;
+    height: auto;
+    width: 70%;
+    padding-left: 9%;
+}
+.content h1{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-content button{
+    background-color: green;
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button-content a{
+    text-decoration: none;
+    color: white;   
+}
+.button-content-1, .button-content-3{
+    margin-right: 65%;
+}
+.button-content p{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.content ul{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.content li{
+    padding: 3px;
+}
+.content ul{
+    margin-left: 32px;
+}
+.paragrafo-cabecalho{
+    margin: 10px 0 0 15px;
+    font-size: 20px;
+}
+.bloco-exemplo{
+    background-color: lightgray;
+    width: 82%;
+    height: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-bottom: 35px;
+}
+.bloco-exemplo h1{
+    font-size: 30px;
+    margin: 5px;
+}
+.exemplo-codigo{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    background-color: white;
+    border-left: 5px solid black;
+}
+.exemplo-codigo p{
+    margin: 3px;
+}
+.titulo-paragrafo{
+    font-size: 20px;
+    margin: 10px 0 0 15px;
+}

@@ -1,20 +1,18 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <p id="texto"></p>
-
     <script>
-        const nome = prompt('Digite seu nome');
-        const idade = prompt('Digite sua idade');
-
-        const mensagem = `Olá, meu nome é ${nome} e eu tenho ${idade} anos`;
-        console.log(mensagem);
-        
-        document.getElementById('texto').innerHTML = mensagem;
+      let nome = prompt("Digite seu nome");
+      let idade = prompt("Digite sua idade");
+      console.log("Olá, meu nome é " + nome + " e eu tenho " + idade + "anos");
+      document.getElementById("texto").innerHTML =
+        "Olá, meu nome é" + nome + "e eu tenho" + idade + "anos";
     </script>
-</body>
+  </body>
 </html>

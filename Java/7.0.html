@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de Idade</title>
+</head>
+<body>
+
+    <script>
+        // Solicita ao usuário que informe sua idade
+        let userAge = parseInt(prompt("Quantos anos você tem?"), 10);
+
+        // Verifica se a idade inserida é um número válido
+        if (!isNaN(userAge)) {
+            // Verifica se o usuário é maior ou menor de idade
+            if (userAge >= 18) {
+                console.log("Você é maior de idade.");
+            } else {
+                console.log("Você é menor de idade.");
+            }
+        } else {
+            console.log("Por favor, insira uma idade válida.");
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações Básicas</title>
+</head>
+<body>
+    <p id="numeros"></p>
+    <p id="soma"></p>
+    <p id="sub"></p>
+    <p id="mult"></p>
+    <p id="divi"></p>
+
+    <script>
+        // Solicita ao usuário para inserir dois números
+        let num1 = parseFloat(prompt("Digite um número:"));
+        let num2 = parseFloat(prompt("Digite outro número:"));
+
+        // Atualiza os elementos HTML com os resultados das operações
+        document.getElementById('numeros').innerHTML = `Seus números são ${num1} e ${num2}.`;
+        document.getElementById('soma').innerHTML = `A soma entre eles é: ${num1 + num2}`;
+        document.getElementById('sub').innerHTML = `A subtração entre eles é: ${num1 - num2}`;
+        document.getElementById('mult').innerHTML = `A multiplicação entre eles é: ${num1 * num2}`;
+        document.getElementById('divi').innerHTML = num2 !== 0 ? 
+            `A divisão entre eles é: ${num1 / num2}` : 
+            'Não é possível dividir por zero.';
+    </script>
+</body>
+</html>
